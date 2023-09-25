@@ -1,24 +1,30 @@
+/* Font Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap");
+
+/* Variables */
+:root {
+  --font: "Roboto", sans-serif;
+
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --bg-color: #efefef;
+  --text-color: #fff;
+
+  --border-radius: 1rem;
+  --button-padding: .25rem .5rem;
+  --button-font-size: .825rem;
+}
+
+/* Global CSS */
 * {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+  font-family: var(--font);
+  color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
-}
-
-.content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
-}
-
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
+  background-color: var(--bg-color);
 }
