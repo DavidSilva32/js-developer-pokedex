@@ -25,7 +25,7 @@ const loadMorePokemons = (offset, limit) => {
                   .join("")}
               </ul>
               
-              <a href="../../pokemon-detail.html"><img src=${pokemon.photo} alt="${pokemon.name}"></a>
+              <a href="./pokemon-detail.html"><img src=${pokemon.photo} alt="${pokemon.name}"></a>
             </aside>
             </li>`
         )

@@ -4,7 +4,7 @@ pokeApi.getEntirePokemon().then((pokemon) => {
   console.log(pokemon);
   content.innerHTML += `
       <section class="pokemon ${pokemon.type}">
-        <a class="arrow" href="assets/index.html" target="_self">&#8592;</a>
+        <a class="arrow" href="./index.html" target="_self">&#8592;</a>
         <div class="title">
             <h1 class="name">${pokemon.name}</h1>
             <span class="number">#${pokemon.number}</span>
