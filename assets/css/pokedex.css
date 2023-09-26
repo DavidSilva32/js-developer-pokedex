@@ -5,6 +5,10 @@
   background-color: var(--primary-color);
 }
 
+.content h1 {
+  color: var(--secondary-color);
+}
+
 .pokemon_list {
   display: grid;
   grid-template-columns: 1fr;
