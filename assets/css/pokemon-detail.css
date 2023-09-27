@@ -1,6 +1,7 @@
 .content {
   padding: 0;
   height: 100vh;
+  /* background-color: var(--primary-color); */
 }
 
 .content .pokemon {
@@ -10,6 +11,7 @@
   border-radius: 0;
   padding: 0;
   padding-top: 1em;
+  height: 100%;
 }
 
 .content .pokemon .arrow {
@@ -34,7 +36,7 @@
   color: var(--secondary-color);
   text-align: right;
   opacity: 0.3;
-  font-size: 1rem;
+  font-size: var(--number-font-size);
 }
 
 .content .pokemon .types {
@@ -65,6 +67,7 @@
   border-radius: 1rem 1rem 0 0;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;

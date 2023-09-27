@@ -4,6 +4,7 @@
 /* Variables */
 :root {
   --font: "Roboto", sans-serif;
+  --number-font-size: 1.5rem;
 
   --primary-color: #fff;
   --secondary-color: #000;
