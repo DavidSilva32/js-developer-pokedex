@@ -1,7 +1,6 @@
 .content {
   padding: 0;
-  height: 100vh;
-  /* background-color: var(--primary-color); */
+  height: 100%;
 }
 
 .content .pokemon {
@@ -19,6 +18,7 @@
   margin-left: 1rem;
   display: flex;
   align-self: flex-start;
+  color: var(--primary-color);
 }
 
 .content .pokemon .title {
@@ -91,10 +91,28 @@
 @media screen and (min-width: 992px) {
   .content {
     padding: 1rem;
-    height: 100vh;
   }
 
   .content .pokemon {
     border-radius: 1rem;
+  }
+
+  .content .pokemon .arrow {
+    font-size: 1.8rem;
+  }
+
+  .content .pokemon .arrow:hover {
+    color: #000;
+  }
+
+  .content .pokemon .title .name {
+    color: var(--primary-color);
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-height: 435px) {
+  .content {
+    height: 100vh;
   }
 }

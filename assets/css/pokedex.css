@@ -86,24 +86,6 @@ body {
 }
 
 /* Medias Queries */
-@media screen and (min-width: 992px) {
-  .content {
-    width: 992px;
-    height: auto;
-    margin: 1rem auto;
-    border-radius: var(--border-radius);
-    background-color: #ffffff4d;
-  }
-
-  .pokemon .number {
-    font-size: 1rem;
-  }
-
-  /* Pagination Section */
-  .pagination .button {
-    cursor: pointer;
-  }
-}
 
 @media screen and (min-width: 375px) {
   .pokemon_list {
@@ -118,10 +100,28 @@ body {
 }
 
 @media screen and (min-width: 992px) {
+  .content {
+    width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: var(--border-radius);
+    background-color: #ffffff4d;
+  }
+
   .pokemon_list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .pokemon .number {
+    font-size: 1rem;
+  }
+
+  /* Pagination Section */
+  .pagination .button {
+    cursor: pointer;
+  }
 }
+
 
 /* Pokemon Background Color */
 .normal {
